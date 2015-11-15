@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'app.js' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\music\package.json
+5 warn package.json music@0.0.0 No repository field.
+6 warn package.json music@0.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\music\node_modules\accepts\package.json
+8 verbose installManyTop reading scoped package data from C:\music\node_modules\array-flatten\package.json
+9 verbose installManyTop reading scoped package data from C:\music\node_modules\basic-auth\package.json
+10 verbose installManyTop reading scoped package data from C:\music\node_modules\body-parser\package.json
+11 verbose installManyTop reading scoped package data from C:\music\node_modules\bytes\package.json
+12 verbose installManyTop reading scoped package data from C:\music\node_modules\content-disposition\package.json
+13 verbose installManyTop reading scoped package data from C:\music\node_modules\content-type\package.json
+14 verbose installManyTop reading scoped package data from C:\music\node_modules\cookie\package.json
+15 verbose installManyTop reading scoped package data from C:\music\node_modules\cookie-parser\package.json
+16 verbose installManyTop reading scoped package data from C:\music\node_modules\cookie-signature\package.json
+17 verbose installManyTop reading scoped package data from C:\music\node_modules\debug\package.json
+18 verbose installManyTop reading scoped package data from C:\music\node_modules\depd\package.json
+19 verbose installManyTop reading scoped package data from C:\music\node_modules\destroy\package.json
+20 verbose installManyTop reading scoped package data from C:\music\node_modules\ee-first\package.json
+21 verbose installManyTop reading scoped package data from C:\music\node_modules\ejs\package.json
+22 verbose installManyTop reading scoped package data from C:\music\node_modules\escape-html\package.json
+23 verbose installManyTop reading scoped package data from C:\music\node_modules\etag\package.json
+24 verbose installManyTop reading scoped package data from C:\music\node_modules\express\package.json
+25 verbose installManyTop reading scoped package data from C:\music\node_modules\finalhandler\package.json
+26 verbose installManyTop reading scoped package data from C:\music\node_modules\forwarded\package.json
+27 verbose installManyTop reading scoped package data from C:\music\node_modules\fresh\package.json
+28 verbose installManyTop reading scoped package data from C:\music\node_modules\http-errors\package.json
+29 verbose installManyTop reading scoped package data from C:\music\node_modules\iconv-lite\package.json
+30 verbose installManyTop reading scoped package data from C:\music\node_modules\inherits\package.json
+31 verbose installManyTop reading scoped package data from C:\music\node_modules\ipaddr.js\package.json
+32 verbose installManyTop reading scoped package data from C:\music\node_modules\media-typer\package.json
+33 verbose installManyTop reading scoped package data from C:\music\node_modules\merge-descriptors\package.json
+34 verbose installManyTop reading scoped package data from C:\music\node_modules\methods\package.json
+35 verbose installManyTop reading scoped package data from C:\music\node_modules\mime\package.json
+36 verbose installManyTop reading scoped package data from C:\music\node_modules\mime-db\package.json
+37 verbose installManyTop reading scoped package data from C:\music\node_modules\mime-types\package.json
+38 verbose installManyTop reading scoped package data from C:\music\node_modules\morgan\package.json
+39 verbose installManyTop reading scoped package data from C:\music\node_modules\ms\package.json
+40 verbose installManyTop reading scoped package data from C:\music\node_modules\negotiator\package.json
+41 verbose installManyTop reading scoped package data from C:\music\node_modules\on-finished\package.json
+42 verbose installManyTop reading scoped package data from C:\music\node_modules\on-headers\package.json
+43 verbose installManyTop reading scoped package data from C:\music\node_modules\parseurl\package.json
+44 verbose installManyTop reading scoped package data from C:\music\node_modules\path-to-regexp\package.json
+45 verbose installManyTop reading scoped package data from C:\music\node_modules\proxy-addr\package.json
+46 verbose installManyTop reading scoped package data from C:\music\node_modules\qs\package.json
+47 verbose installManyTop reading scoped package data from C:\music\node_modules\range-parser\package.json
+48 verbose installManyTop reading scoped package data from C:\music\node_modules\raw-body\package.json
+49 verbose installManyTop reading scoped package data from C:\music\node_modules\send\package.json
+50 verbose installManyTop reading scoped package data from C:\music\node_modules\serve-favicon\package.json
+51 verbose installManyTop reading scoped package data from C:\music\node_modules\serve-static\package.json
+52 verbose installManyTop reading scoped package data from C:\music\node_modules\statuses\package.json
+53 verbose installManyTop reading scoped package data from C:\music\node_modules\type-is\package.json
+54 verbose installManyTop reading scoped package data from C:\music\node_modules\unpipe\package.json
+55 verbose installManyTop reading scoped package data from C:\music\node_modules\utils-merge\package.json
+56 verbose installManyTop reading scoped package data from C:\music\node_modules\vary\package.json
+57 info package.json mime@1.3.4 No license field.
+58 info package.json ms@0.7.1 No license field.
+59 info package.json utils-merge@1.0.0 No license field.
+60 verbose readDependencies loading dependencies from C:\music\package.json
+61 silly cache add args [ 'app.js', null ]
+62 verbose cache add spec app.js
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'app.js',
+63 silly cache add   scope: null,
+63 silly cache add   name: null,
+63 silly cache add   rawSpec: 'app.js',
+63 silly cache add   spec: 'C:\\music\\app.js',
+63 silly cache add   type: 'local' }
+64 silly addLocalTarball shasum (computed) 9902ae0e79ca684a1f11447947737828f2448c1d
+65 verbose addTmpTarball C:\music\app.js not in flight; adding
+66 verbose addTmpTarball validating metadata from C:\music\app.js
+67 verbose tar unpack C:\music\app.js
+68 verbose tar unpacking to C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68
+69 silly gentlyRm C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68 is being purged
+70 verbose gentlyRm don't care about contents; nuking C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68
+71 silly gunzTarPerm modes [ '777', '666' ]
+72 error not a package C:\music\app.js
+73 error addLocal Could not install C:\music\app.js
+74 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68\package.json'
+74 verbose stack     at Error (native)
+75 verbose cwd C:\music
+76 error Windows_NT 6.1.7601
+77 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "app.js"
+78 error node v4.2.1
+79 error npm  v2.14.7
+80 error path C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68\package.json
+81 error code ENOENT
+82 error errno -4058
+83 error syscall open
+84 error enoent ENOENT: no such file or directory, open 'C:\Users\Ibokan\AppData\Local\Temp\npm-4712-9873069e\unpack-58e83bde1a68\package.json'
+84 error enoent This is most likely not a problem with npm itself
+84 error enoent and is related to npm not being able to find a file.
+85 verbose exit [ -4058, true ]

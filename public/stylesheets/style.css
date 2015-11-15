@@ -1,0 +1,140 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+header,
+.left,
+.right{
+  position: absolute;
+}
+header{
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  height: 150px;
+}
+header h1{
+  font-size: 40px;
+  height: 60px;
+  line-height: 60px;
+}
+.left{
+  left: 10px;
+  top: 170px;
+  bottom: 10px;
+  width: 15%;
+  border: solid #ffffff 1px;
+  overflow: auto;
+}
+.left ul{
+  overflow: auto;
+}
+.left ul li{
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.left ul li.selected{
+  color: green;
+}
+.right{
+  top: 170px;
+  right: 10px;
+  bottom: 10px;
+  left: -webkit-calc(15% + 20px);
+  left: calc(15% + 20px);
+}
+a {
+  color: #00B7FF;
+}
+header .type{
+  display: inline-block;
+}
+header .type:after{
+  display: block;
+  content:'';
+  clear: both;
+}
+ header .type li{
+   line-height: 30px;
+   list-style: none;
+   width: 80px;
+   height: 30px;
+   border: 1px solid #ffffff;
+   border-left:none;
+   float: left;
+   cursor: pointer;
+}
+header .type li:first-child{
+   border-left:solid 1px #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.selected{
+  background: white;
+  color: black;
+}
+input[type = 'range']{
+  -webkit-appearance: none;
+  height: 8px;
+  background: #999;
+  border-radius: 10px;
+  outline: none;
+}
+input[type = 'range']::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  border-radius: 100%;
+}
+input[type = 'range']::-moz-range-track {
+  height: 8px;
+  background:  #999;
+  border-radius: 10px;
+  border: none;
+}
+input[type = 'range']::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  background:  #fff;
+  border-radius: 100%;
+  border: none;
+}
+@media screen and (max-width:800px),screen and (max-height: 500px){
+  body{
+    font-size: 12px;
+  }
+  header{
+    height: 80px;
+    border: solid #fff 1px;
+  }
+  header h1{
+    font-size: 24px;
+    height: 34px;
+    line-height:34px;
+  }
+  header.type li{
+    line-height: 16px;
+    width:50px;
+    height: 16px;
+  }
+  .left,.right{
+    top: 100px;
+  }
+}
